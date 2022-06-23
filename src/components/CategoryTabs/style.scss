@@ -1,0 +1,25 @@
+.tabs-wrapper {
+  padding: 0 50px 30px 50px;
+  max-width: 550px;
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  color: #707070;
+  font-size: 16px;
+  padding: 85px 0 75px 0;
+
+  .tab {
+    cursor: pointer;
+    color: #707070;
+    &:hover {
+      color: #ef6d58;
+    }
+  }
+
+  .pressed-tab {
+    color: #16cd53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
